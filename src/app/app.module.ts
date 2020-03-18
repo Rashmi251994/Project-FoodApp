@@ -13,8 +13,10 @@ import { LoginComponent } from './components/login/login.component';
 import { CartComponent } from './components/cart/cart.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
-import { RestaurantregComponent } from './components/restaurantreg/restaurantreg.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { RestoRegComponent } from './components/resto-reg/resto-reg.component';
 
 @NgModule({
   declarations: [
@@ -29,12 +31,14 @@ import { NotfoundComponent } from './components/notfound/notfound.component';
     CartComponent,
     ContactusComponent,
     AboutusComponent,
-    RestaurantregComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    FooterComponent,
+    RestoRegComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

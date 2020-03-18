@@ -5,11 +5,11 @@ import { RestauranthomeComponent } from './components/restauranthome/restauranth
 import { LoginComponent } from './components/login/login.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
-import { RestaurantregComponent } from './components/restaurantreg/restaurantreg.component';
 import { CustomerhomeComponent } from './components/customerhome/customerhome.component';
 import { CustomerregComponent } from './components/customerreg/customerreg.component';
 import { CartComponent } from './components/cart/cart.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
+import { RestoRegComponent } from './components/resto-reg/resto-reg.component';
 
 
 const routes: Routes = [
@@ -35,7 +35,7 @@ const routes: Routes = [
   },
   {
     path:'restoreg',
-    component:RestaurantregComponent
+    component:RestoRegComponent
   },
   {
     path:'custohome',

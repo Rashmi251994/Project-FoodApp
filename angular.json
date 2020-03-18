@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "foodapp"
+    }
+  },
+  "defaultProject": "foodapp",
+  "cli": {
+    "analytics": false
+  }
 }
