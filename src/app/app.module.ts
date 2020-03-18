@@ -7,6 +7,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { RestauranthomeComponent } from './components/restauranthome/restauranthome.component';
 import { HomeComponent } from './components/home/home.component';
 import { ImgsliderComponent } from './components/imgslider/imgslider.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { RestoRegComponent } from './components/resto-reg/resto-reg.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +17,14 @@ import { ImgsliderComponent } from './components/imgslider/imgslider.component';
     NavbarComponent,
     RestauranthomeComponent,
     HomeComponent,
-    ImgsliderComponent
+    ImgsliderComponent,
+    FooterComponent,
+    RestoRegComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
