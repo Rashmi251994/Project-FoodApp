@@ -8,7 +8,6 @@ import { RestauranthomeComponent } from './components/restauranthome/restauranth
 import { HomeComponent } from './components/home/home.component';
 import { ImgsliderComponent } from './components/imgslider/imgslider.component';
 import { CustomerhomeComponent } from './components/customerhome/customerhome.component';
-import { CustomerregComponent } from './components/customerreg/customerreg.component';
 import { LoginComponent } from './components/login/login.component';
 import { CartComponent } from './components/cart/cart.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
@@ -17,6 +16,7 @@ import { NotfoundComponent } from './components/notfound/notfound.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RestoRegComponent } from './components/resto-reg/resto-reg.component';
+import { RegistrationComponent } from './components/registration/registration.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +26,6 @@ import { RestoRegComponent } from './components/resto-reg/resto-reg.component';
     HomeComponent,
     ImgsliderComponent,
     CustomerhomeComponent,
-    CustomerregComponent,
     LoginComponent,
     CartComponent,
     ContactusComponent,
@@ -34,6 +33,7 @@ import { RestoRegComponent } from './components/resto-reg/resto-reg.component';
     NotfoundComponent,
     FooterComponent,
     RestoRegComponent,
+    RegistrationComponent,
    
   ],
   imports: [
