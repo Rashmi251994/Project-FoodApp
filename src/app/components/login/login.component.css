@@ -1,0 +1,12 @@
+.loginform{
+    width:600px;
+    border: 1px solid silver;
+    padding: 30px;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    font-weight: 500;
+}

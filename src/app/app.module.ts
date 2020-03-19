@@ -33,7 +33,8 @@ import { RestoRegComponent } from './components/resto-reg/resto-reg.component';
     AboutusComponent,
     NotfoundComponent,
     FooterComponent,
-    RestoRegComponent
+    RestoRegComponent,
+   
   ],
   imports: [
     BrowserModule,
