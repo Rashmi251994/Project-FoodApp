@@ -1,0 +1,96 @@
+.edit {
+    position: absolute;
+    top: 13px;
+    right: 0;
+    border: 1px solid hsla(0,0%,100%,.6);
+    padding: 8px 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color:white;
+}
+.container-fluid {
+    background: #37718e;
+}
+.edit:hover{
+    background: white;
+    color:#37718e;
+}
+.sec-row {
+    background: white;
+   
+}
+.user {
+    color:white;
+    font-size: 20px;;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding: 20px 0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 80px;
+    background:#edf1f7;;
+}
+
+.menu-list {
+    /* background: #fff; */
+    padding: 25px 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width:248px;
+}
+.fa-shopping-bag,.fa-heart,.fa-money-bill-alt,.fa-map-pin {
+    color: #282c3f;
+    font-size: 25px;
+    position: absolute;
+    top: 23px;
+}
+[class^=icon-] {
+    font-family: icomoon;
+    /* speak: none; */
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.icon-orders:before {
+    content: "\E919";
+}
+
+.li-text {
+    color: #43485f;
+    font-weight: 600;
+    margin-left: 40px;
+    font-size: 16px;
+}
+.fa-money-bill-alt {
+    font-size:20px;
+}
+.fa-map-pin {
+    font-size: 30px;
+}
+
+.menu-col {
+    min-width: 260px;
+    background: #edf1f7;
+}
+
+.li-text:hover {
+    color:black;
+}
+.active {
+    background: #fff;
+
+}

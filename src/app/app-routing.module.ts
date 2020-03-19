@@ -6,10 +6,10 @@ import { LoginComponent } from './components/login/login.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { CustomerhomeComponent } from './components/customerhome/customerhome.component';
-import { CustomerregComponent } from './components/customerreg/customerreg.component';
 import { CartComponent } from './components/cart/cart.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { RestoRegComponent } from './components/resto-reg/resto-reg.component';
+import { RegistrationComponent } from './components/registration/registration.component';
 
 
 const routes: Routes = [
@@ -34,16 +34,12 @@ const routes: Routes = [
     component:RestauranthomeComponent
   },
   {
-    path:'restoreg',
-    component:RestoRegComponent
+    path:'registration',
+    component:RegistrationComponent
   },
   {
     path:'custohome',
     component:CustomerhomeComponent
-  },
-  {
-    path:'custoreg',
-    component:CustomerregComponent
   },
   {
     path:'cart',
