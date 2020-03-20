@@ -7,3 +7,56 @@ img{
     padding: 20px;
 
 }
+.restoinfo{
+    width:350px;
+    
+
+}
+.restoinfo:hover{
+    border:0.5px solid silver;
+}
+.restoinfo>img{
+  
+    height: 200px;
+    align-content: center;
+    
+}
+.rating{
+    background-color:green;
+    width:45px; 
+    height: 25px; 
+}
+.rating>i,span{
+    font-size: 12px;
+    
+    padding: 1px;
+    margin: 0.5px;
+}
+.info>div{
+    float:left;
+}
+.dot{
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 8px;
+    margin-top: -3px;
+}
+.cost, .time{
+    font-size: 13px;
+    font-weight: 400;
+}
+.text{
+    padding: 20px;
+}
+.offer{
+    color: chocolate;
+}
+.view{
+    color: skyblue;
+    font-weight: 800;
+    align-content: center;
+    padding-left:80px;
+    text-decoration: none;
+
+}
+
