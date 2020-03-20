@@ -12,28 +12,54 @@
         <div class="col-3 menu-col">
             <ul class="menu">
                 <li class="menu-list active">
+                    <a routerLink>
                     <span class="fas fa-shopping-bag"></span>
                     <span class="li-text">Orders</span>
+                </a>
                 </li>
                 <li class="menu-list">
+                    <a>
                     <span class="fas fa-heart"></span>
                     <span class="li-text">Favourites</span>
+                </a>
                 </li>
                 <li class="menu-list">
+                    <a>
                     <span class="fas fa-money-bill-alt"></span>
                     <span class="li-text">Payments</span>
+                </a>
                 </li>
                 <li class="menu-list">
+                    <a>
                     <span class="fas fa-map-pin"></span>
                     <span class="li-text">Addresses</span>
+                </a>
                 </li>
             </ul>
         </div>
-        <div class="col-7 ml-4 mt-5">
-            <h4>Past Orders</h4>
-            <div>
+        <div class="col-8 ml-4 mt-5">
+            <div *ngIf="orders">
+                <h4 class="ml-3">Past Orders</h4>
                 <div>
-                    
+                    <app-orders></app-orders>
+                </div>
+            </div>
+            <div *ngIf="favourite">
+                <h4>Favourites</h4>
+                <div>
+                    <app-orders></app-orders>
+                </div>
+            </div>
+            <div *ngIf="payment">
+                <h4>Payments</h4>
+                <div>
+                    <app-orders></app-orders>
+                </div>
+            </div>
+            <div *ngIf="address">
+                <h4>Addresses</h4>
+                <div>
+                    <app-orders></app-orders>
                 </div>
             </div>
         </div>

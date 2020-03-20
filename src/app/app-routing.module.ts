@@ -10,6 +10,9 @@ import { CartComponent } from './components/cart/cart.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { RestoRegComponent } from './components/resto-reg/resto-reg.component';
 import { RegistrationComponent } from './components/registration/registration.component';
+import { OrdersComponent } from './components/customerhome/orders/orders.component';
+import { FavouritesComponent } from './components/customerhome/favourites/favourites.component';
+import { AddressesComponent } from './components/customerhome/addresses/addresses.component';
 
 
 const routes: Routes = [
@@ -44,6 +47,22 @@ const routes: Routes = [
   {
     path:'cart',
     component:CartComponent
+  },
+  {
+    path:'orders',
+    component:OrdersComponent
+  },
+  {
+    path:'favourites',
+    component:FavouritesComponent
+  },
+  {
+    path:'addresses',
+    component:AddressesComponent
+  },
+  {
+    path:'payments',
+    component:PaymentAddress
   },
   {
     path:'**',

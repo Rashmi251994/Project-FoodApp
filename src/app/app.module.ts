@@ -17,6 +17,10 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RestoRegComponent } from './components/resto-reg/resto-reg.component';
 import { RegistrationComponent } from './components/registration/registration.component';
+import { OrdersComponent } from './components/customerhome/orders/orders.component';
+import { PaymentsComponent } from './components/customerhome/payments/payments.component';
+import { AddressesComponent } from './components/customerhome/addresses/addresses.component';
+import { FavouritesComponent } from './components/customerhome/favourites/favourites.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +38,10 @@ import { RegistrationComponent } from './components/registration/registration.co
     FooterComponent,
     RestoRegComponent,
     RegistrationComponent,
+    OrdersComponent,
+    PaymentsComponent,
+    AddressesComponent,
+    FavouritesComponent,
    
   ],
   imports: [
